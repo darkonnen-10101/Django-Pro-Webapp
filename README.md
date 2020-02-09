@@ -37,9 +37,9 @@ python3 manage.py migrate
 > created Procfile in root and added config
 > Edited settings.py in main
 
+conda deactivate => if using Conda
 virtualenv myenv
 virtualenv env/bin/activate
-
 
 pip3 install django-heroku
 pip3 install heroku
