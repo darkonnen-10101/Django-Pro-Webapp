@@ -44,6 +44,7 @@ virtualenv env/bin/activate
 pip3 install django-heroku
 pip3 install heroku
 pip3 install psycopg2
+pip3 install bs4
 pip install gunicorn
 pip3 freeze > requirements.txt
 
