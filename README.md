@@ -38,6 +38,8 @@ python3 manage.py migrate
 > Edited settings.py in main
 
 virtualenv myenv
+virtualenv env/bin/activate
+
 
 pip3 install django-heroku
 pip3 install heroku
