@@ -1,4 +1,10 @@
-## Start Djangop project
+# Django CodeDaddies List
+
+Webscrapping on craiglist website with a single model named Search to stored searched values. Then the response is displayed in the template view and rendered. It filters based on $pricing.
+
+https://evening-falls-51700.herokuapp.com/
+
+## Start Django project
 
 django-admin startproject codedaddies_list
 
@@ -38,9 +44,11 @@ python3 manage.py migrate
 > Edited settings.py in main
 
 conda deactivate => if using Conda
-virtualenv myenv
-virtualenv env/bin/activate
 
+python3 -m venv myenv
+source myenv/bin/activate
+
+pip3 install django-toolbelt
 pip3 install django-heroku
 pip3 install heroku
 pip3 install psycopg2
