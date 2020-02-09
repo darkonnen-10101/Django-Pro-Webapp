@@ -32,7 +32,7 @@ python3 manage.py makemigrations
 
 python3 manage.py migrate
 
-## Deplyment
+## Deployment
 
 > created Procfile in root and added config
 > Edited settings.py in main
