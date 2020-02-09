@@ -50,6 +50,8 @@ python3 -m venv myenv
 
 source myenv/bin/activate
 
+(___)
+
 pip3 install django-toolbelt
 
 pip3 install django-heroku
@@ -64,6 +66,7 @@ pip install gunicorn
 
 pip3 freeze > requirements.txt
 
+(___)
 
 heroku login
 
@@ -77,6 +80,7 @@ heroku addons:create heroku-postgresql:hobby-dev
 
 heroku run python manage.py migrate
 
+(___)
 
 git add .
 
