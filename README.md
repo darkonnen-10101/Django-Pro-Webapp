@@ -37,6 +37,8 @@ python3 manage.py migrate
 > created Procfile in root and added config
 > Edited settings.py in main
 
+virtualenv myenv
+
 pip3 install django-heroku
 pip3 install heroku
 pip3 install psycopg2
